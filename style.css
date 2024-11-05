@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+    background-color: #1F2023;
+}
+
+
+h1 {
+    width: 600px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    border-style: inset;
+    border-top: 15px solid #4D6D63;
+    border-bottom: 15px solid #4D6D63;
+    border-right: 15px solid #1F2023;
+    border-left: 15px solid #1F2023;
+}
+
+.h1-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+form {
+    text-align: start;
+    width: 600px;    
+}
+
+.form-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+fieldset {
+    background-color: #D6E2DE;
+    border: 2px solid #4D6D63;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 25px;
+}
+
+legend {
+    background-color: #4D6D63;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    border: 10px solid #4D6D63;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 20px;
+}
+
+
+
+.label-center {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    display: block;
+    margin: .5em 0 10px 0;
+}
+
+.position {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.input-style {
+    width: 500px;
+    height: 27px;
+    text-align: end;
+    font-family: "Roboto", serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4D6D63;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.select-style {
+    width: 500px;
+    height: 30px;
+    font-family: "Roboto", serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4D6D63;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.description-area {
+    width: 500px;
+    height: 100px;
+    text-align: end;
+    font-family: "Roboto", serif;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4D6D63;
+    border-radius: 5px 5px 5px 5px;
+}
+
+span {
+    font-family: "Roboto", serif;
+    display: block;
+}
+
+.label-radio {
+    font-family: "Roboto", serif;
+}
+
+.texto-blanco {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+
+button {
+    height: 50px;
+    width: 120px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #2B3D37;
+    border-radius: 5px 5px 5px 5px;
+    border-color: #4D6D63;
+    border-width: 1px;
+    border-style: solid;
+    color: #A6BFB5;
+    padding: none;
+    margin-right: 30px;
+}
+
+::placeholder {
+    color: #A6C1B9;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+input:focus {
+    background-color: #4D6D63;
+    color: white;
+}
+
+textarea:focus {
+    background-color: #4D6D63;
+    color: white;
+}
+
+fieldset:focus-within {
+    background-color: #A6C1B9;
+}
+
+fieldset:focus-within > legend {
+    background-color: #2B3D37;
+    border-color: #2B3D37;
+}
+
+button:hover {
+    background-color: #A6BFB5;
+    color: #2B3D37;
+}
+
+first.circle {
+    background-color: #D6E2DE;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline;
+    text-align: center;
+    margin-left: 30px;
+}
+
+
+.circle {
+    background-color: #D6E2DE;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin: 0 10px
+}
+
+.container-circles {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    margin-bottom: 14px;
+}

@@ -6,126 +6,165 @@
     <title>Afiliación</title>
   </head>
 
-  <body>
+  <body class="center">
 
+    <div class="h1-center"> 
     <h1>Vení al Gym! 💪</h1>
-    
-    <form action="https://postman-echo.com/post" method="post">
+  </div>
 
+  <div class="form-center">
+
+    <form action="https://postman-echo.com/post" method="post">
+      
       <fieldset>
         <legend>🙋‍♂️ Datos Personales 👀</legend>
-
-    <div>
-      <label for="lbl-name">Nombre:*</label>
-      <input id="lbl-name" type="text" name="Nombre" required>
-    </div>
-     
-    <div>
-      <label for="lbl-lastname">Apellido:*</label>
-      <input id="lbl-lastname" type="text" name="Apellido" required>
-    </div>
-
-    <div>
-      <label for="lbl-docnumber">Documento:*</label>
-      <input id="lbl-docnumber" type="number" name="Documento" required>
+        
+        <div class="position">
+          <label class="label-center" for="lbl-name">Nombre:*</label>
+          <input class="input-style" id="lbl-name" type="text" name="Nombre" required>
+        </div>
+        
+        <div class="position">
+          <label class="label-center" for="lbl-lastname">Apellido:*</label>
+          <input class="input-style" id="lbl-lastname" type="text" name="Apellido" required>
+        </div>
+        
+        <div class="position">
+          <label class="label-center" for="lbl-docnumber">Documento:*</label>
+      <input class="input-style" id="lbl-docnumber" type="number" name="Documento" required>
     </div>
 
   
-    <div>
-      <label for="lbl-country">Nacionalidad:*</label>
-      <select name="Nacionalidad" id="lbl-country" required>
+    <div class="position">
+      <label class="label-center" for="lbl-country">Nacionalidad:*</label>
+      <select class="select-style" name="Nacionalidad" id="lbl-country" required>
         <option selected value="">-Seleccionar-</option>
         <option value="Argentina">Argentina</option>
         <option value="Brasil">Brasil</option>
         <option value="Uruguay">Uruguay</option>   
       </select>
     </div>
-
-
-    <div>
-      <label for="lbl-description">Contanos un poco de vos...</label>
-      <textarea name="Description" id="lbl-description" cols="20" rows="2"></textarea>
+    
+    
+    <div class="position">
+      <label class="label-center" for="lbl-description">Contanos un poco de vos...</label>
+      <textarea class="description-area" name="Description" id="lbl-description" cols="20" rows="2"></textarea>
     </div>
    
-     <span>Sexo:*</span>
-     <br>
-    <input type="radio" name="Sexo" value="Femenino">
-    <label>Femenino</label>
-    <input type="radio" name="Sexo" value="Masculino">
-    <label>Masculino</label>
-    <input type="radio" name="Sexo" value="Otro">
-    <label>Otro</label>
-
-
-  </fieldset>  
-
-
-  <fieldset>
-  <legend>📱Datos de Contacto📧</legend>
-  
-  <div>
-    <label for="lbl-tel">Telefono:*</label>
-    <input id="lbl-tel" name="Telefono" required placeholder="Código de área y número">
-  </div>
-
-    <div>
-      <label for="lbl-email">Dirección de Correo Electrónico:*</label>
-      <input id="lbl-email" name="Email" type="email" required placeholder="Ej: mail@gmail.com">
+    <div class="position">
+      <span>Sexo:*</span>
+      <br>
+      <input type="radio" name="Sexo" value="Femenino">
+      <label class="label-radio">Femenino</label>
+      <input type="radio" name="Sexo" value="Masculino">
+      <label class="label-radio">Masculino</label>
+      <input type="radio" name="Sexo" value="Otro">
+      <label class="label-radio">Otro</label>
     </div>
-  
+    
   </fieldset>
+  
+  <div class="container-circles">
+    <div class="first-circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+  
+  <fieldset>
+    <legend>📱Datos de Contacto📧</legend>
+    
+    <div class="position">
+      <label class="label-center" for="lbl-tel">Telefono:*</label>
+      <input class="input-style" id="lbl-tel" name="Telefono" required placeholder="Código de área y número">
+    </div>
+    
+    <div class="position">
+      <label class="label-center" for="lbl-email">Dirección de Correo Electrónico:*</label>
+      <input class="input-style" id="lbl-email" name="Email" type="email" required placeholder="Ej: mail@gmail.com">
+    </div>
+    
+  </fieldset>
+  
+  <div class="container-circles">
+    <div class="first-circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
   
   <fieldset>
     <legend>🚴‍♀️ Actividades 🤸‍♂️</legend>
     <br>
-    <div>
-
-        <span>Por favor, indicá cuales actividades te interesan:</span>
-<br>
-<br>
-        <span>Sede Palermo:</span>
-<br>
-<br>
-        <input type="checkbox" name="Actividad-Palermo" value="Basquet">
-        <label>Básquet</label>
-        <input type="checkbox" name="Actividad-Palermo" value="Boxeo">
-        <label>Boxeo</label>
-        <input type="checkbox" name="Actividad-Palermo" value="Futbol">
-        <label>Fútbol</label>
-        <input type="checkbox" name="Actividad-Palermo" value="Tenis">
-        <label>Tenis</label>
-<br>
-<br>
-        <span>Sede Rosario:</span>
-<br>
-<br>
-        <input type="checkbox" name="Actividad-Rosario" value="Basquet">
-        <label>Básquet</label>
-        <input type="checkbox" name="Actividad-Rosario" value="Boxeo">
-        <label>Boxeo</label>
-        <input type="checkbox" name="Actividad-Rosario" value="Futbol">
-        <label>Fútbol</label>
-        <input type="checkbox" name="Actividad-Rosario" value="Tenis">
-        <label>Tenis</label>
-    </div>
-  </fieldset>
-        <input type="checkbox" name="Acepta-Condiciones" value="Acepto-las-condiciones" required>
-        <label>Acepto las condiciones</label>
-<br>
-        <input type="checkbox" name="Recibe-novedades" value="Acepta">
-        <label>Deseo recibir novedades</label>
-<br>
-<br>
-      <span>*:campo obligatorio</span>
-<br>
-<br>
     
+    <div>
+      
+      <span>Por favor, indicá cuales actividades te interesan:</span>
+<br>
+<br>
+<span>Sede Palermo:</span>
+<br>
+<br>
+<input type="checkbox" name="Actividad-Palermo" value="Basquet">
+<label class="label-radio">Básquet</label>
+<input type="checkbox" name="Actividad-Palermo" value="Boxeo">
+<label class="label-radio">Boxeo</label>
+<input type="checkbox" name="Actividad-Palermo" value="Futbol">
+<label class="label-radio">Fútbol</label>
+<input type="checkbox" name="Actividad-Palermo" value="Tenis">
+<label class="label-radio">Tenis</label>
+<br>
+<br>
+<span>Sede Rosario:</span>
+<br>
+<br>
+<input type="checkbox" name="Actividad-Rosario" value="Basquet">
+<label class="label-radio">Básquet</label>
+<input type="checkbox" name="Actividad-Rosario" value="Boxeo">
+<label class="label-radio">Boxeo</label>
+<input type="checkbox" name="Actividad-Rosario" value="Futbol">
+<label class="label-radio">Fútbol</label>
+<input type="checkbox" name="Actividad-Rosario" value="Tenis">
+<label class="label-radio">Tenis</label>
+</div>
+
+</fieldset>
+
+<input type="checkbox" name="Acepta-Condiciones" value="Acepto-las-condiciones" required>
+<label class="texto-blanco">Acepto las condiciones</label>
+<br>
+<input type="checkbox" name="Recibe-novedades" value="Acepta">
+<label class="texto-blanco">Deseo recibir novedades</label>
+<br>
+<br>
+<span class="texto-blanco">*:campo obligatorio</span>
+<br>
+<br>
+
+<div class="position">
   <button type="submit">Iniciar afiliación</button>
   <button type="reset">Restablecer</button>
-  
-   </form>
+</div>
+</form>
+
+</div>
 
 
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<script type="module" src="/main.js"></script>
+</body>
 </html>

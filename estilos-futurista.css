@@ -1,0 +1,18 @@
+/* paleta de colores
+
+ rich black #03161A
+ caribbean current #036573
+ midnight green #063740
+ 
+ */
+
+
+body {
+    background-image: url(public/images/fondo-futurista.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: ;
+}

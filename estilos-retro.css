@@ -1,0 +1,184 @@
+/* paleta de colores
+
+ - BITTERSWEET #E46D60
+ - HUNSHADI YELLOW #EFB455
+ - CAMBRIDGE BLUE #79A690
+ 
+ */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Balthazar&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(public/images/fondo-retro.webp);
+    background-size: 100%;
+    background-attachment: scroll;
+    background-position-x: center;
+}
+
+h1 {
+    color: #68b1b0;
+    font-family: "Shrikhand", serif;
+    font-size: 80px;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px whitesmoke, 9px 9px 0px #643D3E;
+    letter-spacing: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border: 5px dashed #5c3839;
+    border-radius: 30px;
+
+}
+
+.h1-center {
+    display: inline-table;
+    margin: 200px 200px 100px 1000px;
+    width: 700px;
+    height: 150px;
+
+}
+
+form {
+    text-align: start;
+    width: 600px;    
+}
+
+.form-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+fieldset {
+    background-color: #4D5057;
+    border: 0px;
+    width: 700px;
+    margin-bottom: 50px;
+    font-family: "Balthazar", serif;
+    color: #f8e5c6;
+    font-size: 20px; 
+    text-align: center;
+    }
+    
+legend {
+        font-family: "Balthazar", serif;
+        color: #f8e5c6;
+        background-color: #4D5057;
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: left;
+        border: 5px solid #4D5057
+    }
+
+.label-center {
+        font-family: "Balthazar", serif;
+        color: #f8e5c6;
+        font-size: 20px; 
+        margin: .5em 0 10px 0;
+    }
+
+.label-radio {
+        margin-right: 30px;
+    }
+    
+.position {
+        text-align: right;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-right: 25px;
+    }
+
+.input-style {
+        background: white;
+        color: #4D5057;
+        font-weight: bold;
+        width: 400px;
+        height: 30px;
+        text-align: start;
+        font-family: "Balthazar", serif;
+        font-size: 20px;
+        font-weight: lighter;
+        border: 0px;
+    }
+    
+.select-style {
+    background: white;
+    color: #4D5057;
+    width: 400px;
+    height: 25px;
+    font-family: "Balthazar", serif;
+    font-size: 20px;
+    font-weight: lighter;
+    border: 0px;
+    }
+    
+.description-area {
+        width: 520px;
+        height: 100px;
+        resize: vertical;
+        display: inline;
+        color: #4D5057;
+        text-align: start;
+        font-family: "Balthazar", serif;
+        font-size: 20px;
+        font-weight: lighter;
+        border: 0px;
+    }
+
+.texto-blanco {
+    font-family: "Balthazar", serif;
+    color: #5c3839;;
+    text-shadow: 1px 1px 0px #03161A;
+    font-size: 25px; 
+    }
+
+button {
+    height: 40px;
+    width: 200px;
+    font-family: "Saira", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: rgb(26, 26, 26);
+    margin-right: 50px;
+    }
+
+
+    
+    
+input:focus {
+        background-color: #C7827E;
+        color: #1d1c19;
+        font-weight: 500;
+    }
+    
+textarea:focus {
+    background-color: #C7827E;
+    color: #1d1c19;
+    font-weight: 500;
+    text-align: center;
+    }
+    
+fieldset:focus-within {
+    background-color: rgba(77, 80, 87, 0.7);
+    }
+    
+fieldset:focus-within > legend {
+    background-color: rgba(77, 80, 87, 0.7);
+    border: 0px
+
+    }
+    
+button:hover {
+    background-color: #E46D60;
+    }

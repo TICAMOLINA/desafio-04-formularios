@@ -1,5 +1,5 @@
-/* import './style.css' */
+import './style.css'
 
 /* import './estilos-futurista.css'  */
 
-import './estilos-retro.css' 
+/* import './estilos-retro.css'  */
